@@ -1,0 +1,18 @@
+# Use Node.js base image
+FROM python:3.8-slim-buster
+
+# Set the working directory
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of your application
+COPY . .
+
+# Expose the port
+EXPOSE 5500
+
+# Start the application
+CMD ["python", "flask_server.py"]

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+body{
+  color: #ffffff;
+}
+.nav_background{
+  width: 100%;
+  height: 6.5rem;
+  background: #000;
+  padding-top: 1rem;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.container{
+  width: 100%;
+  min-height: 86.5vh;
+  background-image: url(C:\Programs_PK\HTML\test_1\my-app\public\alexander-grey-8lnbXtxFGZw-unsplash.jpg);
+  background-color: rgba( 0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 10%;
+}
+
+.containerp2{
+  width: 100%;
+  min-height: 86.5vh;
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 10%;
+  color: #000;
+}
+
+nav{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a{
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: 450;
+}
+span{
+  font-weight: 900;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  color: #f9004d;
+}
+.login{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.btn{
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+  color: #000;
+}
+
+.content{
+  margin-top: 0;
+  max-width: 600px;
+}
+.content h2{
+  font-size: 60px
+}
+.content p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+a{
+  color: #fff;
+  cursor: pointer;
+}
+.link {
+  margin-top: 30px;
+}
+.hire{
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  padding: 9px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.link .hire:hover{
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.chat{
+padding-top: 7rem;
+}
+
+.contact{
+  width: 100%;
+  height: 15rem;
+  background: #000;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+}
+
+.contactlinks{
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+      .rectangle {
+          width: 300px;  
+          height: 150px; 
+          background-color: #ffffff; 
+          border-radius: 20px; 
+          border: 2px solid black;
+          text-align: center;
+          line-height: 150px;
+          color: black;
+          font-size: 20px;
+          font-family: Arial, sans-serif;
+      }
+
+      .containerr{
+          width: 100%;
+                      text-align: center;
+  min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+      }
+      .chat-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+
+      .chat-container p{
+        padding-left: 5px;
+        font-weight: bold;
+      }
+      
+      .messages {
+        padding: 10px;
+        height: 300px;
+        overflow-y: scroll;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        border-radius: 8px;
+      }
+      
+      .message {
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        max-width: 75%;
+      }
+      
+      .message.sent {
+        color: rgb(255, 255, 255);
+        background-color: #0091ff;
+        text-align: right;
+        margin-left: auto;
+      }
+      
+      .message.received {
+        color: #000;
+        background-color: #ffffff;
+        text-align: left;
+        margin-right: auto;
+      }
+      
+      .input-container {
+        display: flex;
+      }
+      
+      .input-field {
+        flex: 3;
+        width: 20rem;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        margin-right: 10px;
+      }
+      
+      .send-button {
+        flex: 0.5;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;;
+        margin: 10px;
+      }
+      
+      
