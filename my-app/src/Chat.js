@@ -19,7 +19,7 @@ const Chat = () => {
     try {
       console.log(messageInput);
       // Simulate an API request
-      const response = await axios.post('http://192.168.31.32:5500/chatget', {
+      const response = await axios.post('http://192.168.1.59:5500/chatget', {
         message: messageInput
       } );
 

@@ -20,7 +20,7 @@ body{
 .container{
   width: 100%;
   min-height: 86.5vh;
-  background-image: url(C:\Programs_PK\HTML\test_1\my-app\public\alexander-grey-8lnbXtxFGZw-unsplash.jpg);
+  background-image: url(../public/alexander-grey-8lnbXtxFGZw-unsplash.jpg);
   background-color: rgba( 0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-position: center;
